@@ -146,6 +146,5 @@ const handleAdd = () => {
 
 <style scoped>
 #addQuestionView {
-  margin-left: 20px;
 }
 </style>

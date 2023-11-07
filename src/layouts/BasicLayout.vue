@@ -1,16 +1,12 @@
 <template>
   <div id="basicLayout">
-    <!-- 动态更换 -->
     <a-layout style="min-height: 100vh">
-      <!-- 头：导航栏 -->
-      <a-layout-header>
+      <a-layout-header class="header">
         <GlobalHeader />
       </a-layout-header>
-      <!-- 体：可变化的 -->
-      <a-layout-content>
+      <a-layout-content class="content">
         <router-view />
       </a-layout-content>
-      <!-- 尾 -->
       <a-layout-footer class="footer">
         <a href="https://yupi.icu" target="_blank">
           编程导航知识星球 by 程序员鱼皮
